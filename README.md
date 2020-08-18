@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Web coder foi um site feito parra fins de estudo e pratica 
+O Web coder foi um site feito para fins didaticos de estudo e prática
 
 ## 🤔 Como contribuir
 
