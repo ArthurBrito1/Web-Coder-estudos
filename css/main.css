@@ -1,0 +1,191 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 90px;
+}
+main, .content{
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+
+}
+.logo{
+    float: left;
+    padding: 15px; 
+    width: 56%;
+}
+ul{
+    padding: 0px!important ;
+}
+    
+.redes-sociais ul li{
+    margin-top: 5px;
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais{
+    width: 40%;
+    float: right;
+    height: 130px;
+    padding: 3px;
+}
+
+.header-2{
+    background-color: #ffffff;
+    width: 878px;
+    margin: 0 auto;    
+}
+.menu-urls{
+    height: 70px;
+    border-bottom: 3px solid #efefef;
+}
+.menu ul li{
+    display: inline-block;
+    color: black;
+    margin-left: 12px;
+    height: 54px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover{
+    color: #00bac6;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.menu{
+    width: 64%;
+    float: left;
+
+}
+.busca{
+    width: 30%;
+    display: flex;
+
+}
+.busca input{
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    height: 36px;
+    padding: 4px;
+    width: 190px;
+    margin-top: center;
+    background-position: 95%;
+    border-radius: 6px;
+    
+}
+.col-100{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/esquerda.png);
+    top: 35%;
+    left: 200px;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/direita.png);
+    top: 35%;
+    left: 1210px;
+}
+.slider-principal img{
+    width: 1510px;
+    height: 650px;
+}
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 44%;
+    top: 600px;
+    
+    
+}
+li.slick-active button{
+    background: #00bac6;
+    
+}
+.slick-dots li{
+    padding-left: 15px;
+    display: inline-block;
+}
+.texto-destaque{
+    text-align: center;
+}
+.texto-destaque strong{
+    color: rgb(53, 47, 47);
+}
+.texto-destaque h1{
+    text-transform: uppercase;
+    font-size:30px;
+    color:#636262;
+}
+.texto-destaque p{
+    font-size: 15px;
+    color: #797979;
+}
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.bloco-texto{
+    margin-top: 5em;
+}
+.bloco-texto b{
+    color: rgb(53, 47, 47);
+}
+.bloco-texto h3{
+    font-size:17px;
+    color:#636262;
+}
+.bloco-texto p{
+    font-size: 13px;
+    color: #797979;
+}
